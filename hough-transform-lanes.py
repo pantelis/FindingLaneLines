@@ -9,7 +9,7 @@ image = mpimg.imread('exit-ramp.jpg')
 gray = cv2.cvtColor(image,cv2.COLOR_RGB2GRAY)
 
 # display original image
-plt.figure("Original Image")
+plt.figure("Hough Transform Lane Lines")
 plt.imshow(image)
 plt.show(block=False)
 
