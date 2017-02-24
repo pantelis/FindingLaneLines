@@ -35,8 +35,8 @@ The pipeline consists of 5 stages.
 The figures below demonstrate the end result superposing the identified
 lane lines on still images:
 
-![Detecting
-lanes in an image containing a solid white curve][out_solidWhiteCurve]
+![out_solidWhiteCurve](/test_images/out_solidWhiteCurve.jpg) "Detecting
+lanes in an image containing a solid white curve"
 
 ![Detecting
 lanes in an image containing a right solid white line][out_solidWhiteRight]
@@ -91,16 +91,16 @@ white and yellow lines.
 
 [//]: # (Image References)
 
-[out_solidWhiteCurve]: https://raw.github.com/pantelis/FindingLaneLines/blob/master/test_images/out_solidWhiteCurve.jpg "Detecting
+[out_solidWhiteCurve]:  "Detecting
 lanes in an image containing a solid white curve"
 
-[out_solidWhiteRight]: https://github.com/pantelis/FindingLaneLines/blob/master/test_images/out_solidWhiteRight.jpg "Detecting
+[out_solidWhiteRight]: /test_images/out_solidWhiteRight.jpg "Detecting
 lanes in an image containing a right solid white line"
 
-[out_solidYellowCurve]: https://github.com/pantelis/FindingLaneLines/blob/master/test_images/out_solidYellowCurve.jpg "Detecting
+[out_solidYellowCurve]: /test_images/out_solidYellowCurve.jpg "Detecting
 lanes in an image containing a solid yellow curve"
 
-[out_solidYellowCurve2]: https://github.com/pantelis/FindingLaneLines/blob/master/test_images/out_solidYellowCurve2.jpg "Detecting
+[out_solidYellowCurve2]: /test_images/out_solidYellowCurve2.jpg "Detecting
 lanes in an image containing another solid yellow curve"
 
 
