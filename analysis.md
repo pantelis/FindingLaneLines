@@ -1,4 +1,4 @@
-# Finding Lane Lines on the Road
+# **Finding Lane Lines on the Road**
 
 Pantelis Monogioudis
 
@@ -13,16 +13,16 @@ the road from monocular video camera streams.
 
 [//]: # (Image References)
 
-[out_solidWhiteCurve]: https://github.com/pantelis/CarND-LaneLines-P1/blob/master/test_images/out_solidWhiteCurve.jpg "Detecting
+[out_solidWhiteCurve]: https://github.com/pantelis/FindingLaneLines/blob/master/test_images/out_solidWhiteCurve.jpg "Detecting
 lanes in an image containing a solid white curve"
 
-[out_solidWhiteRight]: https://github.com/pantelis/CarND-LaneLines-P1/blob/master/test_images/out_solidWhiteRight.jpg "Detecting
+[out_solidWhiteRight]: https://github.com/pantelis/FindingLaneLines/blob/master/test_images/out_solidWhiteRight.jpg "Detecting
 lanes in an image containing a right solid white line"
 
-[out_solidYellowCurve]: https://github.com/pantelis/CarND-LaneLines-P1/blob/master/test_images/out_solidYellowCurve.jpg "Detecting
+[out_solidYellowCurve]: https://github.com/pantelis/FindingLaneLines/blob/master/test_images/out_solidYellowCurve.jpg "Detecting
 lanes in an image containing a solid yellow curve"
 
-[out_solidYellowCurve2]: https://github.com/pantelis/CarND-LaneLines-P1/blob/master/test_images/out_solidYellowCurve2.jpg "Detecting
+[out_solidYellowCurve2]: https://github.com/pantelis/FindingLaneLines/blob/master/test_images/out_solidYellowCurve2.jpg "Detecting
 lanes in an image containing another solid yellow curve"
 
 
