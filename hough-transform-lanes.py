@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
 import cv2
+import helpers
 
 # Read in and grayscale the image
 image = mpimg.imread('exit-ramp.jpg')
@@ -32,7 +33,7 @@ lower_left = (50, imshape[0])
 upper_left = (400, 320)
 upper_right = (524,302)
 lower_right = (916,imshape[0])
-#vertices = np.array([[(0,imshape[0]),(0, 0), (imshape[1], 0), (imshape[1],imshape[0])]], dtype=np.int32)
+
 vertices = np.array([[lower_left, upper_left, upper_right, lower_right]], dtype=np.int32)
 cv2.fillPoly(mask, vertices, ignore_mask_color)
 masked_edges = cv2.bitwise_and(edges, mask)
@@ -51,15 +52,23 @@ line_image = np.copy(image)*0 # creating a blank to draw lines on
 lines = cv2.HoughLinesP(masked_edges, rho, theta, threshold, np.array([]),
                             min_line_length, max_line_gap)
 
+# classify left and right lane lines (not strictly needed in this code but useful later)
+left_lane_lines, right_lane_lines = helpers.classify_left_right_lanes(lines)
+
 # Iterate over the output "lines" and draw lines on a blank image
-for line in lines:
+for line in left_lane_lines:
     for x1,y1,x2,y2 in line:
-        cv2.line(line_image,(x1,y1),(x2,y2),(255,0,0),10)
+        cv2.line(line_image, (x1,y1), (x2,y2), (255, 0, 0), 10)
+
+for line in right_lane_lines:
+    for x1, y1, x2, y2 in line:
+        cv2.line(line_image, (x1, y1), (x2, y2), (255, 0, 0), 10)
 
 # Create a "color" binary image to combine with line image
 color_edges = np.dstack((edges, edges, edges))
 
 # Draw the lines on the edge image
 lines_edges = cv2.addWeighted(color_edges, 0.8, line_image, 1, 0)
+
 plt.imshow(lines_edges)
 plt.show()
