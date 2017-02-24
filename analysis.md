@@ -6,8 +6,7 @@ NOKIA
 
 **Summary**
 
-The goal of this project is to make a pipeline that finds lane lines on
-the road from monocular video camera streams.
+The goal of this project is to demonstrate a pipeline that detects road lanes from monocular video camera streams.
 
 ---
 
