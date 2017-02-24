@@ -56,7 +56,11 @@ _Detecting lanes in an image containing another solid yellow curve._
 The developed simple pipeline was also tested in video scenes with both
 white and yellow lines.
 
-![white](/test_videos/white.mp4)
+
+[![white_lane_video](https://img.youtube.com/vi/pMvNcu8Pzt8/0.jpg)](https://www.youtube.com/watch?v=pMvNcu8Pzt8)
+
+[![yellow_lane_video](https://img.youtube.com/vi/3aiFcOuQkMM/0.jpg)](https://www.youtube.com/watch?v=3aiFcOuQkMM)
+
 
 _Detecting lanes in a video containing a white solid lane._
 
