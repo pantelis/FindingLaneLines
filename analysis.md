@@ -11,22 +11,6 @@ the road from monocular video camera streams.
 
 ---
 
-[//]: # (Image References)
-
-[out_solidWhiteCurve]: /test_images/out_solidWhiteCurve.jpg "Detecting
-lanes in an image containing a solid white curve"
-
-[out_solidWhiteRight]: https://github.com/pantelis/FindingLaneLines/blob/master/test_images/out_solidWhiteRight.jpg "Detecting
-lanes in an image containing a right solid white line"
-
-[out_solidYellowCurve]: https://github.com/pantelis/FindingLaneLines/blob/master/test_images/out_solidYellowCurve.jpg "Detecting
-lanes in an image containing a solid yellow curve"
-
-[out_solidYellowCurve2]: https://github.com/pantelis/FindingLaneLines/blob/master/test_images/out_solidYellowCurve2.jpg "Detecting
-lanes in an image containing another solid yellow curve"
-
-
----
 
 ## Pipeline
 The pipeline consists of 5 stages.
@@ -105,3 +89,19 @@ white and yellow lines.
    can be filtered out much better by selecting an appropriate region of
    interest.
 
+[//]: # (Image References)
+
+[out_solidWhiteCurve]: https://raw.github.com/pantelis/FindingLaneLines/blob/master/test_images/out_solidWhiteCurve.jpg "Detecting
+lanes in an image containing a solid white curve"
+
+[out_solidWhiteRight]: https://github.com/pantelis/FindingLaneLines/blob/master/test_images/out_solidWhiteRight.jpg "Detecting
+lanes in an image containing a right solid white line"
+
+[out_solidYellowCurve]: https://github.com/pantelis/FindingLaneLines/blob/master/test_images/out_solidYellowCurve.jpg "Detecting
+lanes in an image containing a solid yellow curve"
+
+[out_solidYellowCurve2]: https://github.com/pantelis/FindingLaneLines/blob/master/test_images/out_solidYellowCurve2.jpg "Detecting
+lanes in an image containing another solid yellow curve"
+
+
+---
