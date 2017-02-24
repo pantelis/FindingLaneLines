@@ -59,10 +59,12 @@ white and yellow lines.
 
 [![white_lane_video](https://img.youtube.com/vi/pMvNcu8Pzt8/0.jpg)](https://www.youtube.com/watch?v=pMvNcu8Pzt8)
 
+_Detecting lanes in a video containing a white solid lane._
+
 [![yellow_lane_video](https://img.youtube.com/vi/3aiFcOuQkMM/0.jpg)](https://www.youtube.com/watch?v=3aiFcOuQkMM)
 
+_Detecting lanes in a video containing a yellow left lane._
 
-_Detecting lanes in a video containing a white solid lane._
 
 * Despite its simplicity, the pipeline performed well and was able to
   identify both white and yellow lanes.
@@ -87,7 +89,9 @@ _Detecting lanes in a video containing a white solid lane._
    improvement of the test setup that will allow engineers to tune their
    algorithms.
 
-2. Algorithmically, after a literature survey on the subject, we can
+2. Another improvement can be achieved by stabilization algorithms to the video itself.
+
+3. Algorithmically, after a literature survey on the subject, we can
    summarise the following ideas that almost certainly lead to
    performance improvements: a. The Gaussian kernel applied during the
    blurring step can be asymmetric with the standard deviation in the
