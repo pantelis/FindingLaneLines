@@ -77,19 +77,19 @@ def process_image(image):
 
     return image
 
-white_output = 'white.mp4'
-clip1 = VideoFileClip("solidWhiteRight.mp4")
+white_output = './test_videos/white.mp4'
+clip1 = VideoFileClip("./test_videos/solidWhiteRight.mp4")
 white_clip = clip1.fl_image(process_image) #NOTE: this function expects color images!!
 white_clip.write_videofile(white_output, audio=False)
 
 # Now for the one with the solid yellow lane on the left. This one's more tricky!
-yellow_output = 'yellow.mp4'
-clip2 = VideoFileClip('solidYellowLeft.mp4')
+yellow_output = './test_videos/yellow.mp4'
+clip2 = VideoFileClip('./test_videos/solidYellowLeft.mp4')
 yellow_clip = clip2.fl_image(process_image)
 yellow_clip.write_videofile(yellow_output, audio=False)
 
 
-# challenge_output = 'extra_raw.mp4'
+# challenge_output = 'extra.mp4'
 # clip2 = VideoFileClip('challenge.mp4')
 # challenge_clip = clip2.fl_image(process_image)
 # challenge_clip.write_videofile(challenge_output, audio=False)

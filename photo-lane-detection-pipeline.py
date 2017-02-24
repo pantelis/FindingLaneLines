@@ -2,9 +2,8 @@ import os
 
 import cv2
 import matplotlib.image as mpimg
-import matplotlib.pyplot as plt
 import numpy as np
-from addict import Dict
+from addict import Dict #addict allows for cool nested dict handling
 import helpers
 
 # Parameters are a nested dictionary (addict library)

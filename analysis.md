@@ -73,7 +73,7 @@ _Detecting lanes in a video containing a yellow left lane._
   spurious lines. This can be observed instantaneously on the yellow.mp4
   video. Effectively the outliers created by the other car can throw
   instantaneously the RANSAC regressor off.
-* The pipeline, however, performed poorly on the extra.mp4 video scene
+* The pipeline, however, performed poorly on the challenge.mp4 video scene
   that contains shadows from trees, nearby to the left lane concrete
   media barriers and other objects that are picked up by
   the Canny detector and are not filtered adequately by the Hough
