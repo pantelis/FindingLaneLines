@@ -35,17 +35,23 @@ The pipeline consists of 5 stages.
 The figures below demonstrate the end result superposing the identified
 lane lines on still images:
 
-![out_solidWhiteCurve](/test_images/out_solidWhiteCurve.jpg) "Detecting
-lanes in an image containing a solid white curve"
+![out_solidWhiteCurve](/test_images/out_solidWhiteCurve.jpg)
 
-![Detecting
-lanes in an image containing a right solid white line][out_solidWhiteRight]
+_Detecting lanes in an image containing a solid white curve._
 
-![Detecting lanes in an image containing a solid
-yellow curve][out_solidYellowCurve]
+![out_solidWhiteRight](/test_images/out_solidWhiteRight.jpg)
 
-![Detecting lanes in an image containing another solid
-yellow curve][out_solidYellowCurve2]
+_Detecting lanes in an image containing a right solid white line._
+
+![out_solidYellowCurve](/test_images/out_solidYellowCurve.jpg)
+
+_Detecting lanes in an image containing a solid yellow curve._
+
+
+![out_solidYellowCurve2](/test_images/out_solidYellowCurve2.jpg)
+
+Detecting lanes in an image containing another solid yellow curve.
+
 
 The developed simple pipeline was also tested in video scenes with both
 white and yellow lines.
@@ -67,8 +73,8 @@ white and yellow lines.
 ## Possible improvements
 1. There is far more work that is required to have a successful outcome
    in the challenging extra.mp4 video. The work is particularly
-   challenging as the project did not offer any training datasets where
-   models can be trained on and parameter tuning was almost ad hoc
+   challenging as we need labelled video datasets where
+   models can be trained on. Without such datasets, parameter tuning was almost ad hoc
    (trial and error). One source of improvement is therefore the
    improvement of the test setup that will allow engineers to tune their
    algorithms.
@@ -88,20 +94,3 @@ white and yellow lines.
    view, the nearby to the left yellow line objects or concrete medians
    can be filtered out much better by selecting an appropriate region of
    interest.
-
-[//]: # (Image References)
-
-[out_solidWhiteCurve]:  "Detecting
-lanes in an image containing a solid white curve"
-
-[out_solidWhiteRight]: /test_images/out_solidWhiteRight.jpg "Detecting
-lanes in an image containing a right solid white line"
-
-[out_solidYellowCurve]: /test_images/out_solidYellowCurve.jpg "Detecting
-lanes in an image containing a solid yellow curve"
-
-[out_solidYellowCurve2]: /test_images/out_solidYellowCurve2.jpg "Detecting
-lanes in an image containing another solid yellow curve"
-
-
----
