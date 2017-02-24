@@ -50,11 +50,15 @@ _Detecting lanes in an image containing a solid yellow curve._
 
 ![out_solidYellowCurve2](/test_images/out_solidYellowCurve2.jpg)
 
-Detecting lanes in an image containing another solid yellow curve.
+_Detecting lanes in an image containing another solid yellow curve._
 
 
 The developed simple pipeline was also tested in video scenes with both
 white and yellow lines.
+
+![white](/test_videos/white.mp4)
+
+_Detecting lanes in a video containing a white solid lane._
 
 * Despite its simplicity, the pipeline performed well and was able to
   identify both white and yellow lanes.
